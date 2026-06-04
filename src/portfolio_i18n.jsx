@@ -519,7 +519,6 @@ function Contact() {
             {[
               { label: "mirco.schrammeck@gmail.com", href: "mailto:mirco.schrammeck@gmail.com", primary: true },
               { label: "github.com/Elvios97", href: "https://github.com/Elvios97", primary: false },
-              { label: "linkedin.com/in/MircoSchrammeck", href: "https://linkedin.com/in/MircoSchrammeck", primary: false },
             ].map(item => (
               <a key={item.label} href={item.href} target={item.primary ? undefined : "_blank"} rel="noreferrer" style={{
                 fontFamily: "'Outfit', sans-serif", fontSize: "0.9rem",
